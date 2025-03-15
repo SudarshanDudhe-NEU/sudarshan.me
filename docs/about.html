@@ -1,32 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <title>About Me</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me - Sudarshan Dudhe</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
     <header>
-        <!-- Header component will be injected here -->
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </header>
+
     <main>
-        <section>
-            <h1>About Me</h1>
-            <p>Welcome to my portfolio! I am a passionate web developer with a background in [Your Background].</p>
-            <p>My skills include:</p>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>[Other Skills]</li>
-            </ul>
-            <p>I enjoy creating dynamic and responsive web applications that provide a great user experience.</p>
-        </section>
+      <section class="page-header">
+        <div class="container">
+          <h1>About Me</h1>
+          <p>Get to know my background, skills, and experience</p>
+        </div>
+      </section>
+
+      <section class="about-content container">
+        <div class="about-grid">
+          <div class="about-image">
+            <!-- Replace with your actual image path -->
+            <img src="assets/images/profile.jpg" alt="Sudarshan Dudhe" />
+          </div>
+          <div class="about-text">
+            <h2>Hi, I'm Sudarshan</h2>
+            <p>
+              I am a software engineer with a passion for creating efficient and
+              elegant solutions to complex problems. My journey in software
+              development began with curiosity and has evolved into a career
+              focused on building applications that make a difference.
+            </p>
+            <p>
+              With a background in computer science and extensive experience in
+              web development, I've worked on projects ranging from responsive
+              websites to complex web applications. I thrive in collaborative
+              environments and enjoy turning challenging requirements into
+              clean, maintainable code.
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring new technologies,
+              contributing to open-source projects, or enjoying outdoor
+              activities.
+            </p>
+          </div>
+        </div>
+
+        <div class="education-experience">
+          <h2>Education & Experience</h2>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">2021 - Present</div>
+              <div class="timeline-content">
+                <h3>Software Engineer</h3>
+                <p>Company Name</p>
+                <ul>
+                  <li>
+                    Developed and maintained web applications using React.js and
+                    Node.js
+                  </li>
+                  <li>
+                    Collaborated with cross-functional teams to deliver
+                    high-quality software solutions
+                  </li>
+                  <li>
+                    Implemented responsive design principles for optimal user
+                    experience
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-date">2018 - 2021</div>
+              <div class="timeline-content">
+                <h3>Frontend Developer</h3>
+                <p>Previous Company</p>
+                <ul>
+                  <li>
+                    Built responsive web interfaces using HTML5, CSS3, and
+                    JavaScript
+                  </li>
+                  <li>
+                    Integrated RESTful APIs to create dynamic web applications
+                  </li>
+                  <li>Improved website performance and optimization</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-date">2014 - 2018</div>
+              <div class="timeline-content">
+                <h3>Bachelor of Computer Science</h3>
+                <p>University Name</p>
+                <ul>
+                  <li>Focused on web development and software engineering</li>
+                  <li>
+                    Completed several team projects including a full-stack web
+                    application
+                  </li>
+                  <li>Graduated with honors</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-section">
+          <h2>Skills & Technologies</h2>
+
+          <div class="skill-categories">
+            <div class="skill-category">
+              <h3>Frontend</h3>
+              <div class="skills-list">
+                <div class="skill">HTML5</div>
+                <div class="skill">CSS3</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React.js</div>
+                <div class="skill">Responsive Design</div>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3>Backend</h3>
+              <div class="skills-list">
+                <div class="skill">Node.js</div>
+                <div class="skill">Express</div>
+                <div class="skill">MongoDB</div>
+                <div class="skill">SQL</div>
+                <div class="skill">REST APIs</div>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3>Tools & Others</h3>
+              <div class="skills-list">
+                <div class="skill">Git</div>
+                <div class="skill">GitHub</div>
+                <div class="skill">VS Code</div>
+                <div class="skill">Agile/Scrum</div>
+                <div class="skill">CI/CD</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="interests">
+          <h2>Interests & Hobbies</h2>
+          <p>
+            Beyond coding, I enjoy hiking, reading tech blogs, playing chess,
+            and experimenting with new recipes in the kitchen. I believe
+            maintaining a well-rounded lifestyle enhances creativity and
+            problem-solving skills in professional work.
+          </p>
+        </div>
+      </section>
+
+      <section class="cta-section container">
+        <h2>Interested in working together?</h2>
+        <p>
+          I'm always open to discussing new projects, opportunities, and
+          collaborations.
+        </p>
+        <a href="contact.html" class="btn primary">Get In Touch</a>
+      </section>
     </main>
+
     <footer>
-        <!-- Footer component will be injected here -->
+      <div class="social-links">
+        <a href="https://github.com/sudarshandudhe-neu" target="_blank"
+          >GitHub</a
+        >
+        <a href="https://linkedin.com/in/yourlinkedin" target="_blank"
+          >LinkedIn</a
+        >
+        <!-- Add more social links as needed -->
+      </div>
+      <p>&copy; 2025 Sudarshan Dudhe. All rights reserved.</p>
     </footer>
-    <script src="../assets/js/main.js"></script>
-</body>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

@@ -1,34 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - Portfolio</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Sudarshan Dudhe</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
     <header>
-        <!-- Header component will be injected here -->
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </header>
+
     <main>
-        <h1>My Projects</h1>
-        <section id="projects">
-            <div class="project-card">
-                <h2>Project Title 1</h2>
-                <p>Description of project 1.</p>
-                <a href="https://link-to-project1.com">View Project</a>
+      <section class="page-header">
+        <div class="container">
+          <h1>My Projects</h1>
+          <p>
+            Showcasing my work in data science, machine learning, and software
+            development
+          </p>
+        </div>
+      </section>
+
+      <section class="projects-grid container">
+        <!-- Data Science Project 1 -->
+        <div class="project-card">
+          <div class="project-content">
+            <h2>Financial Portfolio Analysis System</h2>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Data Analysis</span>
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Finance</span>
             </div>
-            <div class="project-card">
-                <h2>Project Title 2</h2>
-                <p>Description of project 2.</p>
-                <a href="https://link-to-project2.com">View Project</a>
+            <p>
+              Developed a comprehensive financial portfolio analysis system that
+              evaluates investment strategies using statistical methods and
+              machine learning algorithms. The system analyzes historical data
+              to provide risk assessment and return predictions.
+            </p>
+            <div class="project-features">
+              <h3>Key Features:</h3>
+              <ul>
+                <li>
+                  Implemented time series forecasting models for market
+                  prediction
+                </li>
+                <li>
+                  Designed risk assessment algorithms based on Monte Carlo
+                  simulations
+                </li>
+                <li>
+                  Created interactive data visualizations for portfolio
+                  performance metrics
+                </li>
+                <li>
+                  Integrated API connections to fetch real-time financial data
+                </li>
+              </ul>
             </div>
-            <!-- Add more project cards as needed -->
-        </section>
+            <div class="project-links">
+              <a href="#" class="btn secondary">View Code</a>
+              <a href="#" class="btn primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data Science Project 2 -->
+        <div class="project-card">
+          <div class="project-content">
+            <h2>Sentiment Analysis for Market Intelligence</h2>
+            <div class="project-tags">
+              <span class="tag">NLP</span>
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Python</span>
+              <span class="tag">Big Data</span>
+            </div>
+            <p>
+              Built a natural language processing system that analyzes financial
+              news and social media data to extract market sentiment. The system
+              provides actionable intelligence for investment decision-making
+              through advanced text analytics.
+            </p>
+            <div class="project-features">
+              <h3>Key Features:</h3>
+              <ul>
+                <li>
+                  Created a custom NLP pipeline for financial text processing
+                </li>
+                <li>
+                  Implemented BERT-based models for sentiment classification
+                </li>
+                <li>Designed a real-time dashboard for sentiment monitoring</li>
+                <li>
+                  Developed correlation analysis between sentiment and market
+                  movements
+                </li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn secondary">View Code</a>
+              <a href="#" class="btn primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Machine Learning Project -->
+        <div class="project-card">
+          <div class="project-content">
+            <h2>Customer Segmentation & Recommendation Engine</h2>
+            <div class="project-tags">
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Clustering</span>
+              <span class="tag">Python</span>
+              <span class="tag">SQL</span>
+            </div>
+            <p>
+              Designed and implemented a customer segmentation system with a
+              personalized recommendation engine using machine learning
+              algorithms. The system analyzes customer behavior patterns to
+              create targeted marketing strategies.
+            </p>
+            <div class="project-features">
+              <h3>Key Features:</h3>
+              <ul>
+                <li>
+                  Implemented K-means and hierarchical clustering for customer
+                  segmentation
+                </li>
+                <li>
+                  Built collaborative filtering algorithms for personalized
+                  recommendations
+                </li>
+                <li>
+                  Developed feature engineering pipeline for customer behavior
+                  analysis
+                </li>
+                <li>
+                  Created visualization dashboards for business intelligence
+                  insights
+                </li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn secondary">View Code</a>
+              <a href="#" class="btn primary">Case Study</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Full Stack Project -->
+        <div class="project-card">
+          <div class="project-content">
+            <h2>Interactive Data Visualization Platform</h2>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">D3.js</span>
+              <span class="tag">Python</span>
+              <span class="tag">Flask</span>
+            </div>
+            <p>
+              Created a web-based interactive data visualization platform that
+              allows users to explore complex datasets through intuitive
+              interfaces. The system processes and transforms raw data into
+              meaningful visual representations.
+            </p>
+            <div class="project-features">
+              <h3>Key Features:</h3>
+              <ul>
+                <li>
+                  Built a responsive front-end with dynamic visualizations using
+                  D3.js
+                </li>
+                <li>
+                  Developed a Flask API backend for data processing and
+                  transformation
+                </li>
+                <li>
+                  Implemented user authentication and data access controls
+                </li>
+                <li>
+                  Created customizable dashboards with multiple visualization
+                  types
+                </li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn secondary">View Code</a>
+              <a href="#" class="btn primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI Project -->
+        <div class="project-card">
+          <div class="project-content">
+            <h2>Predictive Maintenance System</h2>
+            <div class="project-tags">
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Time Series</span>
+              <span class="tag">IoT</span>
+              <span class="tag">Python</span>
+            </div>
+            <p>
+              Developed a predictive maintenance system that monitors equipment
+              health and predicts failures before they occur. The system uses
+              IoT sensor data and advanced machine learning models to optimize
+              maintenance schedules.
+            </p>
+            <div class="project-features">
+              <h3>Key Features:</h3>
+              <ul>
+                <li>
+                  Implemented anomaly detection algorithms for identifying
+                  unusual patterns
+                </li>
+                <li>
+                  Created time series forecasting models for predictive
+                  maintenance
+                </li>
+                <li>
+                  Built a real-time monitoring dashboard for equipment status
+                </li>
+                <li>Developed alert systems for maintenance personnel</li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn secondary">View Code</a>
+              <a href="#" class="btn primary">Case Study</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Research Project -->
+        <div class="project-card">
+          <div class="project-content">
+            <h2>Deep Learning for Medical Imaging</h2>
+            <div class="project-tags">
+              <span class="tag">Deep Learning</span>
+              <span class="tag">CNN</span>
+              <span class="tag">Python</span>
+              <span class="tag">Healthcare</span>
+            </div>
+            <p>
+              Researched and implemented deep learning models for medical image
+              analysis and diagnosis assistance. The project focuses on
+              improving diagnostic accuracy through advanced convolutional
+              neural networks.
+            </p>
+            <div class="project-features">
+              <h3>Key Features:</h3>
+              <ul>
+                <li>
+                  Developed CNN architectures for medical image classification
+                </li>
+                <li>
+                  Implemented transfer learning techniques with pre-trained
+                  models
+                </li>
+                <li>
+                  Created data augmentation pipelines for limited medical
+                  datasets
+                </li>
+                <li>
+                  Built visualization tools for model interpretation and
+                  explainability
+                </li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn secondary">View Research</a>
+              <a href="#" class="btn primary">View Code</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section container">
+        <h2>Interested in working together?</h2>
+        <p>
+          I'm always open to discussing new projects, opportunities, and
+          collaborations.
+        </p>
+        <a href="contact.html" class="btn primary">Get In Touch</a>
+      </section>
     </main>
+
     <footer>
-        <!-- Footer component will be injected here -->
+      <div class="social-links">
+        <a href="https://github.com/sudarshandudhe-neu" target="_blank"
+          >GitHub</a
+        >
+        <a href="https://linkedin.com/in/yourlinkedin" target="_blank"
+          >LinkedIn</a
+        >
+        <!-- Add more social links as needed -->
+      </div>
+      <p>&copy; 2025 Sudarshan Dudhe. All rights reserved.</p>
     </footer>
-    <script src="../assets/js/main.js"></script>
-</body>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
