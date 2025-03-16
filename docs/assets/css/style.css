@@ -410,6 +410,67 @@ footer {
   margin-top: 1.5rem;
 }
 
+/* Contact page styles */
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin: 3rem auto;
+}
+
+.contact-info h2,
+.contact-form h2 {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.contact-methods {
+  margin-top: 2rem;
+}
+
+.contact-method {
+  margin-bottom: 1.5rem;
+}
+
+.contact-method h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-method a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.contact-method a:hover {
+  text-decoration: underline;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .hero h1 {
@@ -462,5 +523,12 @@ footer {
 
   .project-card {
     max-width: 100%;
+  }
+}
+
+/* Responsive styles for contact page */
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
   }
 }
