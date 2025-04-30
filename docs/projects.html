@@ -1,258 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Sudarshan Dudhe</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projects - Sudarshan Dudhe</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html" class="active">Projects</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <h1>My Projects</h1>
+          <p>
+            Showcasing my work in data science, machine learning, and software
+            development
+          </p>
+        </div>
+      </section>
 
-  <main>
-    <section class="page-header">
-      <div class="container">
-        <h1>My Projects</h1>
+      <section class="projects-grid container">
+        <!-- Enterprise AI Systems Development -->
+        <div class="project-card">
+          <h2>Enterprise AI Systems Development</h2>
+          <div class="project-tags">
+            <span class="tag">Azure</span>
+            <span class="tag">Docker</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">LangChain</span>
+            <span class="tag">LangFlow</span>
+            <span class="tag">RAG Systems</span>
+            <span class="tag">Vector Databases</span>
+            <span class="tag">FAISS</span>
+            <span class="tag">CI/CD</span>
+            <span class="tag">Multi-Agent Systems</span>
+            <span class="tag">Cloud Architecture</span>
+            <span class="tag">Performance Optimization</span>
+          </div>
+
+          <!-- Project Description -->
+          <p>
+            Built enterprise-grade AI systems with 99.9% uptime supporting 100+
+            concurrent users on Azure. Implemented secure multi-tenant RAG
+            systems with data isolation and optimized storage (25% cost
+            reduction), while achieving 30% faster response times for complex AI
+            queries. Designed flexible multi-agent orchestration architectures
+            adopted across 5+ enterprise projects and created comprehensive
+            deployment documentation reducing onboarding time by 60%.
+          </p>
+
+          <div class="project-features">
+            <h3>Key Features:</h3>
+            <ul class="project-details">
+              <li>
+                Developed containerized cloud-native AI deployment architecture
+                on Azure with high reliability and scalability guarantees
+              </li>
+              <li>
+                Built secure multi-tenant RAG systems with FAISS vector indexing
+                and isolation guarantees on Azure Blob Storage
+              </li>
+              <li>
+                Optimized FastAPI performance for AI workloads, maintaining 150+
+                requests per second with 5K-token payloads
+              </li>
+              <li>
+                Designed flexible parent-child agent architecture with tool
+                integration for complex, multi-step workflows
+              </li>
+              <li>
+                Created AI code-generation prototypes for React/JavaScript with
+                Tailwind CSS output
+              </li>
+            </ul>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn secondary">Case Study</a>
+            <a href="#" class="btn primary">Documentation</a>
+          </div>
+        </div>
+
+        <!-- Autonomous Driving Perception and Object Detection -->
+        <div class="project-card">
+          <h2>Autonomous Driving Perception and Object Detection</h2>
+          <div class="project-tags">
+            <span class="tag">Computer Vision</span>
+            <span class="tag">3D Object Detection</span>
+            <span class="tag">Model Optimization</span>
+            <span class="tag">Fine-tuning</span>
+            <span class="tag">Depth Imaging</span>
+            <span class="tag">PyTorch</span>
+            <span class="tag">YOLO</span>
+            <span class="tag">CI/CD</span>
+            <span class="tag">Data Visualization</span>
+            <span class="tag">Convolutional Neural Networks</span>
+            <span class="tag">Recurrent Neural Networks</span>
+            <span class="tag">Neural Networks</span>
+            <span class="tag">Machine Learning Algorithms</span>
+          </div>
+
+          <!-- Project Description -->
+          <p>
+            Developed a robust perception system for autonomous vehicles using
+            multi-camera 360° environmental sensing. Leveraged PyTorch and YOLO
+            to achieve state-of-the-art 3D object detection (vehicles, traffic
+            signs) with 92% accuracy, while integrating depth imaging and
+            OpenLane-V2 dataset insights to optimize lane topology predictions.
+            Implemented CI/CD pipelines for model deployment, enhancing
+            real-time spatial awareness capabilities.
+          </p>
+          <div class="project-features">
+            <h3>Key Features:</h3>
+            <ul class="project-details">
+              <li>
+                Conducted research on autonomous driving systems, leveraging the
+                OpenLane-V2 dataset for lane topology prediction and 3D object
+                localization.
+              </li>
+              <li>
+                Developed pipelines for panoramic image blending and 360°
+                environmental perception using multi-camera inputs.
+              </li>
+              <li>
+                Fine-tuned the YOLO model for high-accuracy detection of traffic
+                signs, vehicles, and other road objects.
+              </li>
+              <li>
+                Integrated depth estimation models to enhance 3D localization
+                and optimize spatial awareness for navigation.
+              </li>
+            </ul>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn secondary">View Code</a>
+            <a href="#" class="btn primary">Live Demo</a>
+          </div>
+        </div>
+
+        <!-- JobFit AI – AI-Driven Resume Optimization System -->
+        <div class="project-card">
+          <h2>JobFit AI – AI-Driven Resume Optimization System</h2>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">OpenAI APIs</span>
+            <span class="tag">Data Scraping</span>
+            <span class="tag">Automation</span>
+            <span class="tag">Cloud Computing</span>
+            <span class="tag">Data Warehousing</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Kubernetes</span>
+            <span class="tag">Databases</span>
+            <span class="tag">Machine Learning</span>
+            <span class="tag">ML Algorithms</span>
+          </div>
+
+          <!-- Project Description -->
+          <p>
+            Built an end-to-end resume optimization platform using OpenAI GPT-4
+            and SpaCy to analyze 10,000+ job descriptions, improving
+            applicant-match rates by 40%. Automated data scraping/storage with
+            Airflow and AWS S3, deployed via Dockerized FastAPI/Streamlit
+            microservices. Integrated Pinecone vector search and Snowflake
+            analytics to deliver personalized resume feedback within 15-second
+            latency.
+          </p>
+
+          <div class="project-features">
+            <h3>Key Features:</h3>
+            <ul class="project-details">
+              <li>
+                Developed an AI-powered system using NLP (OpenAI GPT, Spacy) to
+                analyze resumes and job descriptions.
+              </li>
+              <li>
+                Automated workflows with Apache Airflow, leveraging AWS S3 for
+                storage, Pinecone for embeddings, and Snowflake for querying.
+              </li>
+              <li>
+                Built and deployed a scalable application with Streamlit and
+                FastAPI, containerized using Docker.
+              </li>
+              <li>
+                Designed predictive ML models and deep learning pipelines to
+                enhance accuracy and optimize decision-making.
+              </li>
+            </ul>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn secondary">View Code</a>
+            <a href="#" class="btn primary">Live Demo</a>
+          </div>
+        </div>
+
+        <!-- Neural Modeling and Machine Learning Projects -->
+        <div class="project-card">
+          <h2>Neural Modeling and Machine Learning Projects</h2>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">TensorFlow</span>
+            <span class="tag">PyTorch</span>
+            <span class="tag">Keras</span>
+            <span class="tag">Scikit-Learn</span>
+            <span class="tag">MATLAB</span>
+            <span class="tag">Data Visualization</span>
+            <span class="tag">Data Science</span>
+            <span class="tag">Neural Networks</span>
+            <span class="tag">Deep Learning</span>
+            <span class="tag">CNN</span>
+            <span class="tag">RNN</span>
+            <span class="tag">ML Algorithms</span>
+          </div>
+
+          <!-- Project Description -->
+          <p>
+            Designed 15+ experimental models including GRU-based weather
+            predictors (85% accuracy) and multilingual chatbots using seq2seq
+            architectures. Implemented CNN-RNN hybrids for text generation and
+            optimized Scikit-Learn pipelines for financial forecasting.
+            Leveraged TensorFlow/Keras for neural architecture experiments with
+            Bayesian hyperparameter tuning.
+          </p>
+
+          <div class="project-features">
+            <h3>Key Features:</h3>
+            <ul class="project-details">
+              <li>
+                Designed and implemented advanced models, including Decision
+                Trees, SVMs, Dense Networks, and RNNs.
+              </li>
+              <li>
+                Developed projects in text generation, numerical computation,
+                weather prediction, and multilingual chatbots.
+              </li>
+              <li>
+                Applied techniques like feature engineering, hyperparameter
+                optimization, and embeddings (Word2Vec, GloVe).
+              </li>
+            </ul>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn secondary">View Code</a>
+            <a href="#" class="btn primary">Live Demo</a>
+          </div>
+        </div>
+
+        <!-- The Influence of Birth Months on Marital Stability -->
+        <div class="project-card">
+          <h2>The Influence of Birth Months on Marital Stability</h2>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Data Analysis</span>
+            <span class="tag">Statistical Modeling</span>
+            <span class="tag">Predictive Modeling</span>
+            <span class="tag">Data Visualization</span>
+            <span class="tag">Scikit-Learn</span>
+            <span class="tag">SQL</span>
+          </div>
+
+          <!-- Project Description -->
+          <p>
+            Conducted longitudinal analysis of 4,900 divorce cases revealing 18%
+            higher separation likelihood for Q1-born individuals. Engineered
+            Python-based statistical models (Propensity Score Matching) to
+            isolate birth month effects, validated through ANOVA testing (p <
+            0.05). Visualized demographic patterns with Seaborn/Tableau,
+            uncovering socioeconomic confounders in marital timelines.
+          </p>
+
+          <div class="project-features">
+            <h3>Key Features:</h3>
+            <ul class="project-details">
+              <li>
+                Analyzed 4,900 divorce records to assess the impact of birth
+                months on marital stability using Python.
+              </li>
+              <li>
+                Investigated seasonal patterns and demographic influences to
+                provide actionable insights for relationship studies.
+              </li>
+              <li>
+                Applied data structures and statistical models to ensure clean
+                and interpretable datasets.
+              </li>
+              <li>
+                Used predictive models and deep learning techniques to identify
+                trends in demographic data.
+              </li>
+            </ul>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn secondary">View Code</a>
+            <a href="#" class="btn primary">Live Demo</a>
+          </div>
+        </div>
+        <!-- Gmail Email Monitor -->
+        <div class="project-card">
+          <h2>Gmail Email Monitor</h2>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Gmail API</span>
+            <span class="tag">Telegram API</span>
+            <span class="tag">WhatsApp API</span>
+            <span class="tag">Docker</span>
+            <span class="tag">LLM Integration</span>
+            <span class="tag">Web Automation</span>
+            <span class="tag">Selenium</span>
+            <span class="tag">OAuth</span>
+            <span class="tag">CI/CD</span>
+          </div>
+
+          <!-- Project Description -->
+          <p>
+            Built an intelligent email monitoring system using Gmail API, NLP,
+            and multi-channel notifications. Integrated Llama 3.2 LLM for
+            AI-powered email classification with 92% accuracy in identifying
+            high-priority messages. Implemented robust authentication flows,
+            headless browser automation for WhatsApp messaging, and
+            containerized deployment with Docker. Reduced manual email
+            monitoring time by 85% while ensuring critical communications are
+            never missed.
+          </p>
+
+          <div class="project-features">
+            <h3>Key Features:</h3>
+            <ul class="project-details">
+              <li>
+                Developed a modular Python application leveraging Gmail API for
+                continuous inbox monitoring with smart filtering
+              </li>
+              <li>
+                Integrated Telegram and WhatsApp notification channels with
+                formatted message delivery and session management
+              </li>
+              <li>
+                Implemented AI-powered email classification using Llama 3.2 for
+                context-aware importance scoring
+              </li>
+              <li>
+                Designed robust architecture with comprehensive logging,
+                authentication handling, and persistent email tracking
+              </li>
+            </ul>
+          </div>
+          <div class="project-links">
+            <a
+              href="https://github.com/SudarshanDudhe-NEU/gmail-app"
+              class="btn secondary"
+              >View Code</a
+            >
+            <a href="#" class="btn primary">Demo</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section container">
+        <h2>Interested in working together?</h2>
         <p>
-          Showcasing my work in data science, machine learning, and software
-          development
+          I'm always open to discussing new projects, opportunities, and
+          collaborations.
         </p>
+        <a href="contact.html" class="btn primary">Get In Touch</a>
+      </section>
+    </main>
+
+    <footer>
+      <div class="social-links">
+        <a href="https://github.com/sudarshandudhe-neu" target="_blank"
+          >GitHub</a
+        >
+        <a href="https://linkedin.com/in/yourlinkedin" target="_blank"
+          >LinkedIn</a
+        >
+        <!-- Add more social links as needed -->
       </div>
-    </section>
-
-    <section class="projects-grid container">
-      <!-- Autonomous Driving Perception and Object Detection -->
-      <div class="project-card">
-        <h2>Autonomous Driving Perception and Object Detection</h2>
-        <div class="project-tags">
-          <span class="tag">Computer Vision</span>
-          <span class="tag">3D Object Detection</span>
-          <span class="tag">Model Optimization</span>
-          <span class="tag">Fine-tuning</span>
-          <span class="tag">Depth Imaging</span>
-          <span class="tag">PyTorch</span>
-          <span class="tag">YOLO</span>
-          <span class="tag">CI/CD</span>
-          <span class="tag">Data Visualization</span>
-          <span class="tag">Convolutional Neural Networks</span>
-          <span class="tag">Recurrent Neural Networks</span>
-          <span class="tag">Neural Networks</span>
-          <span class="tag">Machine Learning Algorithms</span>
-        </div>
-
-        <!-- Project Description -->
-        <p> Developed a robust perception system for autonomous vehicles using multi-camera 360° environmental sensing.
-          Leveraged PyTorch and YOLO to achieve state-of-the-art 3D object detection (vehicles, traffic signs) with 92%
-          accuracy, while integrating depth imaging and OpenLane-V2 dataset insights to optimize lane topology
-          predictions. Implemented CI/CD pipelines for model deployment, enhancing real-time spatial awareness
-          capabilities. </p>
-        <div class="project-features">
-          <h3>Key Features:</h3>
-          <ul class="project-details">
-            <li>Conducted research on autonomous driving systems, leveraging the OpenLane-V2 dataset for lane topology
-              prediction and 3D object localization.</li>
-            <li>Developed pipelines for panoramic image blending and 360° environmental perception using multi-camera
-              inputs.</li>
-            <li>Fine-tuned the YOLO model for high-accuracy detection of traffic signs, vehicles, and other road
-              objects.</li>
-            <li>Integrated depth estimation models to enhance 3D localization and optimize spatial awareness for
-              navigation.</li>
-          </ul>
-        </div>
-        <div class="project-links">
-          <a href="#" class="btn secondary">View Code</a>
-          <a href="#" class="btn primary">Live Demo</a>
-        </div>
-      </div>
-
-      <!-- JobFit AI – AI-Driven Resume Optimization System -->
-      <div class="project-card">
-        <h2>JobFit AI – AI-Driven Resume Optimization System</h2>
-        <div class="project-tags">
-          <span class="tag">Python</span>
-          <span class="tag">Pandas</span>
-          <span class="tag">OpenAI APIs</span>
-          <span class="tag">Data Scraping</span>
-          <span class="tag">Automation</span>
-          <span class="tag">Cloud Computing</span>
-          <span class="tag">Data Warehousing</span>
-          <span class="tag">Docker</span>
-          <span class="tag">Kubernetes</span>
-          <span class="tag">Databases</span>
-          <span class="tag">Machine Learning</span>
-          <span class="tag">ML Algorithms</span>
-        </div>
-
-        <!-- Project Description -->
-        <p> Built an end-to-end resume optimization platform using OpenAI GPT-4 and SpaCy to analyze 10,000+ job
-          descriptions, improving applicant-match rates by 40%. Automated data scraping/storage with Airflow and AWS S3,
-          deployed via Dockerized FastAPI/Streamlit microservices. Integrated Pinecone vector search and Snowflake
-          analytics to deliver personalized resume feedback within 15-second latency. </p>
-
-        <div class="project-features">
-          <h3>Key Features:</h3>
-          <ul class="project-details">
-            <li>Developed an AI-powered system using NLP (OpenAI GPT, Spacy) to analyze resumes and job descriptions.
-            </li>
-            <li>Automated workflows with Apache Airflow, leveraging AWS S3 for storage, Pinecone for embeddings, and
-              Snowflake for querying.</li>
-            <li>Built and deployed a scalable application with Streamlit and FastAPI, containerized using Docker.</li>
-            <li>Designed predictive ML models and deep learning pipelines to enhance accuracy and optimize
-              decision-making.</li>
-          </ul>
-        </div>
-        <div class="project-links">
-          <a href="#" class="btn secondary">View Code</a>
-          <a href="#" class="btn primary">Live Demo</a>
-        </div>
-      </div>
-
-      <!-- Neural Modeling and Machine Learning Projects -->
-      <div class="project-card">
-        <h2>Neural Modeling and Machine Learning Projects</h2>
-        <div class="project-tags">
-          <span class="tag">Python</span>
-          <span class="tag">TensorFlow</span>
-          <span class="tag">PyTorch</span>
-          <span class="tag">Keras</span>
-          <span class="tag">Scikit-Learn</span>
-          <span class="tag">MATLAB</span>
-          <span class="tag">Data Visualization</span>
-          <span class="tag">Data Science</span>
-          <span class="tag">Neural Networks</span>
-          <span class="tag">Deep Learning</span>
-          <span class="tag">CNN</span>
-          <span class="tag">RNN</span>
-          <span class="tag">ML Algorithms</span>
-        </div>
-
-        <!-- Project Description -->
-        <p> Designed 15+ experimental models including GRU-based weather predictors (85% accuracy) and multilingual
-          chatbots using seq2seq architectures. Implemented CNN-RNN hybrids for text generation and optimized
-          Scikit-Learn pipelines for financial forecasting. Leveraged TensorFlow/Keras for neural architecture
-          experiments with Bayesian hyperparameter tuning. </p>
-
-        <div class="project-features">
-          <h3>Key Features:</h3>
-          <ul class="project-details">
-            <li>Designed and implemented advanced models, including Decision Trees, SVMs, Dense Networks, and RNNs.</li>
-            <li>Developed projects in text generation, numerical computation, weather prediction, and multilingual
-              chatbots.</li>
-            <li>Applied techniques like feature engineering, hyperparameter optimization, and embeddings (Word2Vec,
-              GloVe).</li>
-          </ul>
-        </div>
-        <div class="project-links">
-          <a href="#" class="btn secondary">View Code</a>
-          <a href="#" class="btn primary">Live Demo</a>
-        </div>
-      </div>
-
-      <!-- The Influence of Birth Months on Marital Stability -->
-      <div class="project-card">
-        <h2>The Influence of Birth Months on Marital Stability</h2>
-        <div class="project-tags">
-          <span class="tag">Python</span>
-          <span class="tag">Data Analysis</span>
-          <span class="tag">Statistical Modeling</span>
-          <span class="tag">Predictive Modeling</span>
-          <span class="tag">Data Visualization</span>
-          <span class="tag">Scikit-Learn</span>
-          <span class="tag">SQL</span>
-        </div>
-
-        <!-- Project Description -->
-        <p> Conducted longitudinal analysis of 4,900 divorce cases revealing 18% higher separation likelihood for
-          Q1-born individuals. Engineered Python-based statistical models (Propensity Score Matching) to isolate birth
-          month effects, validated through ANOVA testing (p < 0.05). Visualized demographic patterns with
-            Seaborn/Tableau, uncovering socioeconomic confounders in marital timelines. </p>
-
-            <div class="project-features">
-              <h3>Key Features:</h3>
-              <ul class="project-details">
-                <li>Analyzed 4,900 divorce records to assess the impact of birth months on marital stability using
-                  Python.</li>
-                <li>Investigated seasonal patterns and demographic influences to provide actionable insights for
-                  relationship studies.</li>
-                <li>Applied data structures and statistical models to ensure clean and interpretable datasets.</li>
-                <li>Used predictive models and deep learning techniques to identify trends in demographic data.</li>
-              </ul>
-            </div>
-            <div class="project-links">
-              <a href="#" class="btn secondary">View Code</a>
-              <a href="#" class="btn primary">Live Demo</a>
-            </div>
-      </div>
-      <!-- Gmail Email Monitor -->
-      <div class="project-card">
-        <h2>Gmail Email Monitor</h2>
-        <div class="project-tags">
-          <span class="tag">Python</span>
-          <span class="tag">Gmail API</span>
-          <span class="tag">Telegram API</span>
-          <span class="tag">WhatsApp API</span>
-          <span class="tag">Docker</span>
-          <span class="tag">LLM Integration</span>
-          <span class="tag">Web Automation</span>
-          <span class="tag">Selenium</span>
-          <span class="tag">OAuth</span>
-          <span class="tag">CI/CD</span>
-        </div>
-
-        <!-- Project Description -->
-        <p>
-          Built an intelligent email monitoring system using Gmail API, NLP, and multi-channel notifications. 
-          Integrated Llama 3.2 LLM for AI-powered email classification with 92% accuracy in identifying high-priority messages. 
-          Implemented robust authentication flows, headless browser automation for WhatsApp messaging, and containerized deployment 
-          with Docker. Reduced manual email monitoring time by 85% while ensuring critical communications are never missed.
-        </p>
-
-        <div class="project-features">
-          <h3>Key Features:</h3>
-          <ul class="project-details">
-            <li>Developed a modular Python application leveraging Gmail API for continuous inbox monitoring with smart filtering</li>
-            <li>Integrated Telegram and WhatsApp notification channels with formatted message delivery and session management</li>
-            <li>Implemented AI-powered email classification using Llama 3.2 for context-aware importance scoring</li>
-            <li>Designed robust architecture with comprehensive logging, authentication handling, and persistent email tracking</li>
-          </ul>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/SudarshanDudhe-NEU/gmail-app" class="btn secondary">View Code</a>
-          <a href="#" class="btn primary">Demo</a>
-        </div>
-      </div>
-
-    </section>
-
-
-    <section class="cta-section container">
-      <h2>Interested in working together?</h2>
-      <p>
-        I'm always open to discussing new projects, opportunities, and
-        collaborations.
-      </p>
-      <a href="contact.html" class="btn primary">Get In Touch</a>
-    </section>
-  </main>
-
-  <footer>
-    <div class="social-links">
-      <a href="https://github.com/sudarshandudhe-neu" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a>
-      <!-- Add more social links as needed -->
-    </div>
-    <p>&copy; 2025 Sudarshan Dudhe. All rights reserved.</p>
-  </footer>
-  <script src="assets/js/main.js"></script>
-</body>
-
+      <p>&copy; 2025 Sudarshan Dudhe. All rights reserved.</p>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
