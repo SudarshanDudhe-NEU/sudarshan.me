@@ -54,11 +54,11 @@ function initTypingEffect() {
   if (!typingElement) return;
   
   const phrases = [
-    'AI Engineer',
-    'Full-Stack Developer',
-    'LLM & RAG Architect',
-    'Cloud Solutions Builder',
-    'Multi-Agent Systems Expert'
+    'Full Stack Developer',
+    'Software Engineer',
+    'Backend Specialist',
+    'Frontend Developer',
+    'Cloud Native Builder'
   ];
   
   let phraseIndex = 0;
