@@ -1,64 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sudarshan Dudhe - Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="index.html" class="active">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </header>
-    <main>
-      <section class="hero">
-        <h1>Sudarshan Dudhe</h1>
-        <p>
-          AI Systems Architect & Data Engineer | Building Intelligent Solutions
-        </p>
-        <div class="cta-buttons">
-          <a href="projects.html" class="btn primary">View Projects</a>
-          <a href="contact.html" class="btn secondary">Contact Me</a>
-        </div>
-      </section>
-
-      <section class="introduction container">
-        <h2>Welcome to My Portfolio</h2>
-        <p>
-          I design and implement advanced AI systems with expertise in
-          retrieval-augmented generation and cloud infrastructure while
-          maintaining strong full-stack capabilities. I architect scalable data
-          pipelines, optimize API performance, and develop secure multi-tenant
-          applications—all while delivering measurable business value through
-          automation and intelligent insights.
-        </p>
-        <div class="skills-container">
-          <div class="skill">HTML5</div>
-          <div class="skill">CSS3</div>
-          <div class="skill">JavaScript</div>
-          <div class="skill">React</div>
-          <div class="skill">Node.js</div>
-          <!-- Add more skills as needed -->
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="social-links">
-        <a href="https://github.com/sudarshandudhe-neu" target="_blank"
-          >GitHub</a
-        >
-        <a href="https://linkedin.com/in/yourlinkedin" target="_blank"
-          >LinkedIn</a
-        >
-        <!-- Add more social links as needed -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sudarshan Dudhe | AI Engineer</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="AI Engineer with 5+ years building LLM-powered multi-agent systems, RAG architectures, and full-stack applications. Based in Boston, MA." />
+  <meta name="keywords" content="AI Engineer, LLM, RAG, LangChain, Full Stack Developer, Python, Machine Learning, Boston" />
+  <meta name="author" content="Sudarshan Dudhe" />
+  
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sudarshandudhe-neu.github.io/sudarshan.me/" />
+  <meta property="og:title" content="Sudarshan Dudhe | AI Engineer" />
+  <meta property="og:description" content="AI Engineer with 5+ years building LLM-powered multi-agent systems, RAG architectures, and full-stack applications." />
+  <meta property="og:image" content="assets/images/og-image.png" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sudarshan Dudhe | AI Engineer" />
+  <meta name="twitter:description" content="AI Engineer with 5+ years building LLM-powered multi-agent systems, RAG architectures, and full-stack applications." />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="bg-gradient"></div>
+  <div class="bg-grid"></div>
+  
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>SD<span class="logo-bracket">/&gt;</span>
+      </a>
+      <div class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="assets/files/Sudarshan_Dudhe_Resume.pdf" class="btn btn-primary btn-sm" download>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7 10 12 15 17 10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          Resume
+        </a>
       </div>
-      <p>&copy; 2025 Sudarshan Dudhe. All rights reserved.</p>
-    </footer>
-    <script src="assets/js/main.js"></script>
-  </body>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-badge animate-fade-in">
+          <span class="status-dot"></span>
+          Available for opportunities · August 2025
+        </div>
+        
+        <h1 class="hero-title animate-fade-in-up">
+          Hi, I'm <span class="gradient-text">Sudarshan</span>
+        </h1>
+        
+        <div class="hero-subtitle animate-fade-in-up delay-1">
+          <span class="typing-text" id="typing-text"></span>
+          <span class="typing-cursor">|</span>
+        </div>
+        
+        <p class="hero-description animate-fade-in-up delay-2">
+          AI Engineer with 5+ years building <span class="highlight">LLM-powered multi-agent systems</span>, 
+          <span class="highlight">RAG architectures</span>, and production-grade full-stack applications. 
+          Currently pursuing MS in Information Systems at Northeastern University.
+        </p>
+        
+        <div class="hero-cta animate-fade-in-up delay-3">
+          <a href="projects.html" class="btn btn-primary">
+            View My Work
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+        </div>
+        
+        <div class="hero-stats animate-fade-in-up delay-4">
+          <div class="stat">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number">15+</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number">99.9%</span>
+            <span class="stat-label">System Uptime</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero-scroll">
+        <span>Scroll to explore</span>
+        <div class="scroll-indicator"></div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">What I Do</span>
+          <h2 class="section-title">Technical Expertise</h2>
+        </div>
+        
+        <div class="skills-grid">
+          <div class="skill-card animate-on-scroll">
+            <div class="skill-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                <path d="M2 17l10 5 10-5"/>
+                <path d="M2 12l10 5 10-5"/>
+              </svg>
+            </div>
+            <h3>AI & LLMs</h3>
+            <p>Building intelligent systems with GPT-4, LangChain, and multi-agent orchestration</p>
+            <div class="skill-tags">
+              <span>LangChain</span>
+              <span>OpenAI</span>
+              <span>RAG</span>
+              <span>Agents</span>
+            </div>
+          </div>
+          
+          <div class="skill-card animate-on-scroll">
+            <div class="skill-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <polyline points="16 18 22 12 16 6"/>
+                <polyline points="8 6 2 12 8 18"/>
+              </svg>
+            </div>
+            <h3>Full-Stack Development</h3>
+            <p>End-to-end application development with modern frameworks and best practices</p>
+            <div class="skill-tags">
+              <span>Python</span>
+              <span>FastAPI</span>
+              <span>React</span>
+              <span>Node.js</span>
+            </div>
+          </div>
+          
+          <div class="skill-card animate-on-scroll">
+            <div class="skill-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/>
+              </svg>
+            </div>
+            <h3>Cloud & DevOps</h3>
+            <p>Deploying scalable solutions on AWS, Azure, and GCP with CI/CD pipelines</p>
+            <div class="skill-tags">
+              <span>AWS</span>
+              <span>Azure</span>
+              <span>Docker</span>
+              <span>K8s</span>
+            </div>
+          </div>
+          
+          <div class="skill-card animate-on-scroll">
+            <div class="skill-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+              </svg>
+            </div>
+            <h3>Data & Vector DBs</h3>
+            <p>Designing efficient data pipelines and semantic search systems</p>
+            <div class="skill-tags">
+              <span>Pinecone</span>
+              <span>FAISS</span>
+              <span>PostgreSQL</span>
+              <span>MongoDB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="section projects-preview">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Recent Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+        </div>
+        
+        <div class="featured-projects">
+          <article class="project-feature animate-on-scroll">
+            <div class="project-feature-content">
+              <span class="project-category">Enterprise AI</span>
+              <h3>Multi-Agent RAG System</h3>
+              <p>Built enterprise-grade AI systems on Azure with 99.9% uptime supporting 100+ concurrent users. Implemented secure multi-tenant RAG with FAISS vector indexing.</p>
+              <div class="project-tech">
+                <span>Azure</span>
+                <span>FastAPI</span>
+                <span>LangChain</span>
+                <span>FAISS</span>
+              </div>
+              <a href="projects.html#enterprise-ai" class="project-link">
+                View Project
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </a>
+            </div>
+            <div class="project-feature-visual">
+              <div class="code-window">
+                <div class="code-header">
+                  <span class="code-dot"></span>
+                  <span class="code-dot"></span>
+                  <span class="code-dot"></span>
+                </div>
+                <pre class="code-content"><code><span class="code-keyword">from</span> langchain <span class="code-keyword">import</span> Agent
+<span class="code-keyword">from</span> pinecone <span class="code-keyword">import</span> Index
+
+<span class="code-keyword">class</span> <span class="code-class">RAGAgent</span>:
+    <span class="code-keyword">def</span> <span class="code-func">__init__</span>(self):
+        self.llm = <span class="code-string">"gpt-4"</span>
+        self.vectordb = Index()
+    
+    <span class="code-keyword">async def</span> <span class="code-func">query</span>(self, prompt):
+        context = <span class="code-keyword">await</span> self.retrieve()
+        <span class="code-keyword">return</span> self.generate(context)</code></pre>
+              </div>
+            </div>
+          </article>
+          
+          <article class="project-feature reverse animate-on-scroll">
+            <div class="project-feature-content">
+              <span class="project-category">Computer Vision</span>
+              <h3>Autonomous Driving Perception</h3>
+              <p>Developed robust perception system using multi-camera 360° environmental sensing with PyTorch and YOLO achieving 92% accuracy in 3D object detection.</p>
+              <div class="project-tech">
+                <span>PyTorch</span>
+                <span>YOLO</span>
+                <span>OpenCV</span>
+                <span>CNN</span>
+              </div>
+              <a href="projects.html#autonomous-driving" class="project-link">
+                View Project
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </a>
+            </div>
+            <div class="project-feature-visual">
+              <div class="vision-demo">
+                <div class="detection-box box-1"></div>
+                <div class="detection-box box-2"></div>
+                <div class="detection-box box-3"></div>
+                <div class="detection-label">Vehicle: 94%</div>
+                <div class="scan-line"></div>
+              </div>
+            </div>
+          </article>
+        </div>
+        
+        <div class="section-cta">
+          <a href="projects.html" class="btn btn-outline">
+            View All Projects
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+      <div class="container">
+        <div class="cta-card animate-on-scroll">
+          <h2>Let's Build Something Amazing</h2>
+          <p>I'm currently looking for AI Engineer and Full-Stack Developer roles starting August 2025. Open to discussing exciting opportunities.</p>
+          <div class="cta-buttons">
+            <a href="contact.html" class="btn btn-primary">
+              Start a Conversation
+            </a>
+            <a href="assets/files/Sudarshan_Dudhe_Resume.pdf" class="btn btn-outline" download>
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <span class="logo-bracket">&lt;</span>SD<span class="logo-bracket">/&gt;</span>
+          </a>
+          <p>AI Engineer based in Boston, MA<br>Building intelligent systems that matter.</p>
+        </div>
+        
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Navigation</h4>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          
+          <div class="footer-column">
+            <h4>Connect</h4>
+            <a href="https://linkedin.com/in/sudarshandudhe" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/SudarshanDudhe-NEU" target="_blank" rel="noopener">GitHub</a>
+            <a href="mailto:sdudhe92@gmail.com">Email</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Sudarshan Dudhe. Built with passion.</p>
+        <p class="footer-location">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+          Boston, MA
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
 </html>

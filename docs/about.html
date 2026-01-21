@@ -1,297 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me - Sudarshan Dudhe</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html" class="active">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Sudarshan Dudhe</title>
+  
+  <meta name="description" content="Learn about Sudarshan Dudhe - AI Engineer with 5+ years experience building LLM-powered systems and full-stack applications." />
+  
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="bg-gradient"></div>
+  <div class="bg-grid"></div>
+  
+  <header class="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>SD<span class="logo-bracket">/&gt;</span>
+      </a>
+      <div class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="assets/files/Sudarshan_Dudhe_Resume.pdf" class="btn btn-primary btn-sm" download>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7 10 12 15 17 10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          Resume
+        </a>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
 
-    <main>
-      <section class="page-header">
-        <div class="container">
-          <h1>About Me</h1>
-          <p>Get to know my background, skills, and experience</p>
-        </div>
-      </section>
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>About <span class="gradient-text">Me</span></h1>
+        <p>My journey, skills, and what drives me to build intelligent systems</p>
+      </div>
+    </section>
 
-      <section class="about-content container">
-        <div class="about-grid">
+    <section class="section">
+      <div class="container">
+        <div class="about-intro animate-on-scroll">
           <div class="about-image">
-            <!-- Replace with your actual image path -->
             <img src="assets/images/profile.png" alt="Sudarshan Dudhe" />
           </div>
           <div class="about-text">
-            <h2>Hi, I'm Sudarshan</h2>
+            <h2>Hi, I'm Sudarshan 👋</h2>
             <p>
-              I am a software engineer specializing in AI systems and cloud
-              architecture. My journey in technology began with a passion for
-              elegant code and has evolved into building enterprise-grade AI
-              solutions on Azure with high reliability, security, and
-              scalability. I combine technical expertise with creative
-              problem-solving to deliver systems that make a measurable impact.
+              I'm an AI Engineer with 5+ years of experience building and deploying 
+              LLM-powered multi-agent systems, RAG architectures, and production-grade 
+              full-stack applications. Currently pursuing my Master's in Information Systems 
+              at Northeastern University while working as an AI Engineer Intern at FounderWay.
             </p>
             <p>
-              With a background in computer science and experience across the
-              full development stack, I've delivered projects ranging from
-              responsive web applications to cloud-native AI architectures. My
-              recent work focuses on developing secure multi-tenant RAG systems,
-              optimizing FastAPI performance for AI workloads, and designing
-              flexible multi-agent architectures that follow Azure best
-              practices for enterprise deployment.
+              My journey in technology started with building web applications and has evolved 
+              into architecting enterprise-grade AI solutions. I specialize in developing 
+              intelligent systems that leverage the latest in LLM technology, combining 
+              technical expertise with creative problem-solving to deliver solutions that 
+              make a measurable impact.
             </p>
             <p>
-              When I'm not architecting AI systems, you can find me exploring
-              emerging technologies, contributing to open-source projects, or
-              enjoying outdoor activities. I believe that maintaining balance
-              and diverse interests enhances creativity and problem-solving
-              capabilities in technical work.
+              I'm passionate about the intersection of AI and software engineering, 
+              constantly exploring new ways to make AI systems more reliable, scalable, 
+              and useful. When I'm not coding, you'll find me exploring emerging tech, 
+              contributing to open-source projects, or diving deep into research papers 
+              on multi-agent systems and retrieval architectures.
             </p>
           </div>
         </div>
 
-        <div class="education-experience">
-          <h2>Education & Experience</h2>
-
+        <!-- Experience Timeline -->
+        <div class="timeline-section animate-on-scroll">
+          <h2>Experience</h2>
           <div class="timeline">
-            <!-- FounderWay -->
             <div class="timeline-item">
-              <div class="timeline-date">Jan 2025 - Present · 4 mos</div>
-              <div class="timeline-content">
-                <h3>Artificial Intelligence Engineer</h3>
-                <p>FounderWay · Internship</p>
-                <p><em>Boston, Massachusetts, United States · Remote</em></p>
-                <ul>
-                  <li>
-                    Developed AI logic for vector table creation and usage,
-                    enhancing user experience and curriculum delivery
-                  </li>
-                  <li>
-                    Collaborated cross-functionally with product managers and
-                    engineers to deliver holistic solutions
-                  </li>
-                  <li>
-                    Stayed updated with the latest advancements in AI and
-                    full-stack development to enhance platform features
-                  </li>
-                  <li>
-                    Applied MLOps practices and integrated OpenAI APIs for
-                    platform functionality
-                  </li>
-                </ul>
-              </div>
+              <div class="timeline-date">Jan 2025 – May 2025</div>
+              <h3>AI Engineer Intern</h3>
+              <p class="timeline-company">FounderWay</p>
+              <p class="timeline-location">Boston, MA (Remote)</p>
+              <ul>
+                <li>Developed production AI agents with tool-calling and multi-agent orchestration, integrating OpenAI APIs and Pinecone vector database</li>
+                <li>Built end-to-end LLM-powered solutions with multi-step prompt chains, dynamic templates and versioning in Python</li>
+                <li>Implemented observability using LangSmith and custom dashboards with comprehensive logging and error tracking</li>
+                <li>Mentored engineers through code reviews and onboarded new team members on AI development best practices</li>
+              </ul>
             </div>
 
-            <!-- Arges Global Limited -->
             <div class="timeline-item">
-              <div class="timeline-date">Jan 2021 - Aug 2023 · 2 yrs 8 mos</div>
-              <div class="timeline-content">
-                <h3>Senior Developer</h3>
-                <p>Arges Global Limited · Full-time</p>
-                <p><em>Mumbai, Maharashtra, India · On-site</em></p>
-                <ul>
-                  <li>
-                    Engineered a web app for textile data storage, management,
-                    and analysis, optimizing order management and automating
-                    report generation
-                  </li>
-                  <li>
-                    Reduced manual workload by automating production and order
-                    status analysis, saving significant time for clients
-                  </li>
-                  <li>
-                    Generated insights from 10GB of data quarterly, enabling
-                    improved decision-making processes
-                  </li>
-                </ul>
-              </div>
+              <div class="timeline-date">Jan 2021 – Aug 2023</div>
+              <h3>Full Stack Developer</h3>
+              <p class="timeline-company">Arges Global Limited</p>
+              <p class="timeline-location">Mumbai, India</p>
+              <ul>
+                <li>Owned end-to-end delivery of a scalable data management platform using Python and JavaScript</li>
+                <li>Reduced support overhead by 60% through efficient algorithms and production-quality code</li>
+                <li>Built production web applications integrating REST APIs, webhooks and external systems</li>
+                <li>Engaged directly with customer teams to translate requirements into deployed automation solutions</li>
+              </ul>
             </div>
 
-            <!-- Deqode -->
             <div class="timeline-item">
-              <div class="timeline-date">Nov 2019 - May 2020 · 7 mos</div>
-              <div class="timeline-content">
-                <h3>Solutions Engineer</h3>
-                <p>Deqode · Full-time</p>
-                <p><em>Pune, Maharashtra</em></p>
-                <ul>
-                  <li>
-                    Managed MERN stack app development with cryptocurrency
-                    integration, improving team collaboration efficiently
-                  </li>
-                  <li>
-                    Implemented Node.js backend services to handle complex
-                    financial transactions
-                  </li>
-                  <li>
-                    Utilized modern JavaScript frameworks to create responsive
-                    and secure interfaces
-                  </li>
-                </ul>
-              </div>
+              <div class="timeline-date">Nov 2019 – May 2020</div>
+              <h3>Solutions Engineer</h3>
+              <p class="timeline-company">Deqode Solutions</p>
+              <p class="timeline-location">Indore, India</p>
+              <ul>
+                <li>Developed distributed web applications using the MERN stack with cryptocurrency integration</li>
+                <li>Built robust automation features with comprehensive REST/JSON API integrations</li>
+                <li>Worked on-site with customers to identify pain points and deliver tailored solutions</li>
+              </ul>
             </div>
 
-            <!-- Simplify Reality Inc. - Full Stack Developer -->
             <div class="timeline-item">
-              <div class="timeline-date">Apr 2018 - Nov 2019 · 1 yr 8 mos</div>
-              <div class="timeline-content">
-                <h3>Full Stack Developer</h3>
-                <p>Simplify Reality Inc. · Full-time</p>
-                <p><em>Gurgaon, India</em></p>
-                <ul>
-                  <li>
-                    Implemented AI-driven customer service solutions using
-                    Python for global enterprises
-                  </li>
-                  <li>
-                    Developed an Instagram engagement analysis bot, enhancing
-                    follower growth and account management
-                  </li>
-                  <li>
-                    Streamlined operations for global enterprises by developing
-                    affiliate features
-                  </li>
-                </ul>
-              </div>
+              <div class="timeline-date">Apr 2018 – Nov 2019</div>
+              <h3>Full-Stack Developer</h3>
+              <p class="timeline-company">Simplify Reality, Inc</p>
+              <p class="timeline-location">Gurugram, India</p>
+              <ul>
+                <li>Architected an AI-powered customer service product from scratch for global enterprise clients</li>
+                <li>Built production systems for healthcare and automation platforms with robust API design</li>
+                <li>Explained complex AI concepts to technical and non-technical stakeholders, driving adoption</li>
+              </ul>
             </div>
 
-            <!-- Simplify Reality Inc. - Intern -->
             <div class="timeline-item">
-              <div class="timeline-date">Sep 2017 - Apr 2018 · 8 mos</div>
-              <div class="timeline-content">
-                <h3>Intern</h3>
-                <p>Simplify Reality Inc.</p>
-                <p><em>Gurgaon, India</em></p>
-                <ul>
-                  <li>
-                    Collaborated with team members using Git to organize
-                    modifications and assign tasks
-                  </li>
-                  <li>
-                    Developed a seamless user interface for Healora platform,
-                    streamlining healthcare procedures
-                  </li>
-                  <li>
-                    Enhanced user experience by enabling direct doctor
-                    appointments on the platform
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <!-- Education -->
-            <div class="timeline-item">
-              <div class="timeline-date">2014 - 2018</div>
-              <div class="timeline-content">
-                <h3>Bachelor of Computer Science</h3>
-                <p>University Name</p>
-                <ul>
-                  <li>Focused on web development and software engineering</li>
-                  <li>
-                    Completed several team projects including a full-stack web
-                    application
-                  </li>
-                  <li>Graduated with honors</li>
-                </ul>
-              </div>
+              <div class="timeline-date">Sep 2017 – Apr 2018</div>
+              <h3>Software Engineer Intern</h3>
+              <p class="timeline-company">Simplify Reality, Inc</p>
+              <p class="timeline-location">Gurugram, India</p>
+              <ul>
+                <li>Developed user interfaces for healthcare platform Healora, streamlining medical procedures</li>
+                <li>Collaborated with team using Git for version control and task management</li>
+                <li>Enhanced user experience by enabling direct doctor appointment booking</li>
+              </ul>
             </div>
           </div>
         </div>
 
-        <div class="skills-section">
+        <!-- Education -->
+        <div class="timeline-section animate-on-scroll" style="margin-top: 80px;">
+          <h2>Education</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">Sep 2023 – Aug 2025</div>
+              <h3>Master of Science in Information Systems</h3>
+              <p class="timeline-company">Northeastern University</p>
+              <p class="timeline-location">Boston, MA</p>
+              <ul>
+                <li>Coursework: AI Agent Infrastructure, Neural Modeling, Data Science Engineering, Big Data Systems</li>
+                <li>Focus on AI/ML systems, cloud architecture, and advanced software engineering</li>
+              </ul>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-date">Sep 2012 – May 2017</div>
+              <h3>Bachelor of Technology in Information Technology</h3>
+              <p class="timeline-company">Yeshwantrao Chavan College of Engineering</p>
+              <p class="timeline-location">Nagpur, India</p>
+              <ul>
+                <li>Strong foundation in computer science fundamentals and software development</li>
+                <li>Focus on algorithms, data structures, and system design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="timeline-section animate-on-scroll" style="margin-top: 80px;">
           <h2>Skills & Technologies</h2>
-
-          <div class="skill-categories">
-            <div class="skill-category">
-              <h3>Frontend</h3>
-              <div class="skills-list">
-                <div class="skill">HTML5</div>
-                <div class="skill">CSS3</div>
-                <div class="skill">JavaScript</div>
-                <div class="skill">React.js</div>
-                <div class="skill">Responsive Design</div>
+          <div class="skills-detailed">
+            <div class="skill-group">
+              <h3>AI & Machine Learning</h3>
+              <div class="skill-tags">
+                <span>LLMs (GPT-4, Claude)</span>
+                <span>LangChain</span>
+                <span>AI Agents</span>
+                <span>RAG Systems</span>
+                <span>Prompt Engineering</span>
+                <span>Hugging Face</span>
+                <span>PyTorch</span>
+                <span>NLP</span>
               </div>
             </div>
 
-            <div class="skill-category">
-              <h3>Backend</h3>
-              <div class="skills-list">
-                <div class="skill">Node.js</div>
-                <div class="skill">Express</div>
-                <div class="skill">MongoDB</div>
-                <div class="skill">SQL</div>
-                <div class="skill">REST APIs</div>
+            <div class="skill-group">
+              <h3>Programming Languages</h3>
+              <div class="skill-tags">
+                <span>Python</span>
+                <span>JavaScript</span>
+                <span>TypeScript</span>
+                <span>Java</span>
+                <span>SQL</span>
+                <span>Bash</span>
               </div>
             </div>
 
-            <div class="skill-category">
-              <h3>Tools & Others</h3>
-              <div class="skills-list">
-                <div class="skill">Git</div>
-                <div class="skill">GitHub</div>
-                <div class="skill">VS Code</div>
-                <div class="skill">Agile/Scrum</div>
-                <div class="skill">CI/CD</div>
+            <div class="skill-group">
+              <h3>Frameworks & APIs</h3>
+              <div class="skill-tags">
+                <span>FastAPI</span>
+                <span>Django</span>
+                <span>Flask</span>
+                <span>React</span>
+                <span>Next.js</span>
+                <span>Node.js</span>
+                <span>REST APIs</span>
+                <span>GraphQL</span>
               </div>
             </div>
 
-            <div class="skill-category">
-              <h3>AI & Cloud</h3>
-              <div class="skills-list">
-                <div class="skill">Azure</div>
-                <div class="skill">Docker</div>
-                <div class="skill">FastAPI</div>
-                <div class="skill">LangChain</div>
-                <div class="skill">RAG Systems</div>
-                <div class="skill">Vector Databases</div>
-                <div class="skill">Multi-Agent Systems</div>
+            <div class="skill-group">
+              <h3>Cloud & Data</h3>
+              <div class="skill-tags">
+                <span>AWS (S3, EC2, Lambda)</span>
+                <span>Azure</span>
+                <span>GCP</span>
+                <span>Pinecone</span>
+                <span>FAISS</span>
+                <span>PostgreSQL</span>
+                <span>MongoDB</span>
+                <span>Redis</span>
+                <span>Snowflake</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>DevOps & Tools</h3>
+              <div class="skill-tags">
+                <span>Docker</span>
+                <span>Kubernetes</span>
+                <span>Git</span>
+                <span>GitHub Actions</span>
+                <span>CI/CD</span>
+                <span>MLflow</span>
+                <span>Apache Airflow</span>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="interests">
-          <h2>Interests & Hobbies</h2>
-          <p>
-            Beyond coding, I enjoy hiking, reading tech blogs, playing chess,
-            and experimenting with new recipes in the kitchen. I believe
-            maintaining a well-rounded lifestyle enhances creativity and
-            problem-solving skills in professional work.
-          </p>
-        </div>
-      </section>
-
-      <section class="cta-section container">
-        <h2>Interested in working together?</h2>
-        <p>
-          I'm always open to discussing new projects, opportunities, and
-          collaborations.
-        </p>
-        <a href="contact.html" class="btn primary">Get In Touch</a>
-      </section>
-    </main>
-
-    <footer>
-      <div class="social-links">
-        <a href="https://github.com/sudarshandudhe-neu" target="_blank"
-          >GitHub</a
-        >
-        <a href="https://linkedin.com/in/yourlinkedin" target="_blank"
-          >LinkedIn</a
-        >
-        <!-- Add more social links as needed -->
       </div>
-      <p>&copy; 2025 Sudarshan Dudhe. All rights reserved.</p>
-    </footer>
-    <script src="assets/js/main.js"></script>
-  </body>
+    </section>
+
+    <section class="section cta-section">
+      <div class="container">
+        <div class="cta-card animate-on-scroll">
+          <h2>Let's Work Together</h2>
+          <p>I'm currently seeking AI Engineer and Full-Stack Developer opportunities starting August 2025.</p>
+          <div class="cta-buttons">
+            <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+            <a href="assets/files/Sudarshan_Dudhe_Resume.pdf" class="btn btn-outline" download>Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <span class="logo-bracket">&lt;</span>SD<span class="logo-bracket">/&gt;</span>
+          </a>
+          <p>AI Engineer based in Boston, MA<br>Building intelligent systems that matter.</p>
+        </div>
+        
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Navigation</h4>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          
+          <div class="footer-column">
+            <h4>Connect</h4>
+            <a href="https://linkedin.com/in/sudarshandudhe" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/SudarshanDudhe-NEU" target="_blank" rel="noopener">GitHub</a>
+            <a href="mailto:sdudhe92@gmail.com">Email</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Sudarshan Dudhe. Built with passion.</p>
+        <p class="footer-location">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+          Boston, MA
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
 </html>
