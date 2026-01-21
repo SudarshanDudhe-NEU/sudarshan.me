@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projects | Sudarshan Dudhe</title>
+  <title>Projects | Sudarshan Dudhe - Data Scientist</title>
   
-  <meta name="description" content="Explore Sudarshan Dudhe's portfolio of AI systems, full-stack applications, and machine learning projects." />
+  <meta name="description" content="Explore Sudarshan Dudhe's portfolio of data science projects, machine learning models, and analytics solutions." />
   
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,7 +48,7 @@
     <section class="page-header">
       <div class="container">
         <h1>My <span class="gradient-text">Projects</span></h1>
-        <p>A showcase of AI systems, full-stack applications, and machine learning innovations</p>
+        <p>A showcase of machine learning models, data analysis, and predictive analytics</p>
       </div>
     </section>
 
@@ -56,29 +56,28 @@
       <div class="container">
         <div class="projects-grid">
           
-          <!-- Enterprise AI Systems -->
-          <div class="project-card animate-on-scroll" id="enterprise-ai">
+          <!-- Customer Churn Prediction -->
+          <div class="project-card animate-on-scroll" id="churn-prediction">
             <div class="project-tags">
-              <span class="tag">Azure</span>
+              <span class="tag">XGBoost</span>
+              <span class="tag">SHAP</span>
               <span class="tag">FastAPI</span>
-              <span class="tag">LangChain</span>
-              <span class="tag">RAG</span>
-              <span class="tag">FAISS</span>
+              <span class="tag">MLflow</span>
               <span class="tag">Docker</span>
             </div>
-            <h2>Enterprise AI Systems</h2>
+            <h2>Customer Churn Prediction System</h2>
             <p>
-              Built enterprise-grade AI systems on Azure achieving 99.9% uptime supporting 100+ 
-              concurrent users. Implemented secure multi-tenant RAG systems with FAISS vector 
-              indexing, reducing storage costs by 25% and improving query response times by 30%.
+              Built an end-to-end ML pipeline predicting customer churn with 94% accuracy. 
+              Implemented comprehensive feature engineering, model selection with cross-validation, 
+              and deployed a real-time scoring API with model explainability using SHAP.
             </p>
             <div class="project-features">
               <h3>Key Achievements</h3>
               <ul class="project-details">
-                <li>Developed containerized cloud-native AI deployment architecture with high reliability guarantees</li>
-                <li>Optimized FastAPI performance to handle 150+ requests/second with 5K-token payloads</li>
-                <li>Designed parent-child multi-agent orchestration for complex multi-step workflows</li>
-                <li>Created deployment documentation reducing engineer onboarding time by 60%</li>
+                <li>Engineered 50+ features from raw customer data including RFM metrics and behavioral patterns</li>
+                <li>Compared 8 models (Logistic Regression to XGBoost) with hyperparameter tuning via Optuna</li>
+                <li>Implemented SHAP explainability dashboard for stakeholder interpretability</li>
+                <li>Deployed FastAPI service with MLflow model registry and Docker containerization</li>
               </ul>
             </div>
             <div class="project-links">
@@ -88,7 +87,7 @@
                 </svg>
                 GitHub
               </a>
-              <a href="#" class="btn btn-primary">Case Study</a>
+              <a href="#" class="btn btn-primary">Live Demo</a>
             </div>
           </div>
 
@@ -127,29 +126,28 @@
             </div>
           </div>
 
-          <!-- JobFit AI -->
+          <!-- Time Series Forecasting -->
           <div class="project-card animate-on-scroll">
             <div class="project-tags">
-              <span class="tag">OpenAI GPT</span>
-              <span class="tag">LangChain</span>
-              <span class="tag">RAG</span>
-              <span class="tag">FastAPI</span>
-              <span class="tag">Pinecone</span>
+              <span class="tag">Prophet</span>
+              <span class="tag">LSTM</span>
+              <span class="tag">ARIMA</span>
+              <span class="tag">Streamlit</span>
               <span class="tag">AWS</span>
             </div>
-            <h2>JobFit AI – Resume Optimization</h2>
+            <h2>Sales Forecasting Pipeline</h2>
             <p>
-              Built an end-to-end LLM-powered resume optimization platform analyzing 10,000+ job 
-              descriptions. Improved applicant-match rates by 40% using semantic retrieval with 
-              Pinecone vector database.
+              Developed a multi-model time series forecasting system for retail demand prediction. 
+              Combined statistical methods (ARIMA, Prophet) with deep learning (LSTM) achieving 
+              15% improvement in forecast accuracy over baseline.
             </p>
             <div class="project-features">
               <h3>Key Achievements</h3>
               <ul class="project-details">
-                <li>Developed production LLM application with RAG architecture and FastAPI serving</li>
-                <li>Built multi-step prompt chains with dynamic templates and versioning</li>
-                <li>Orchestrated data pipelines from AWS S3 and Snowflake using Apache Airflow</li>
-                <li>Containerized deployment with Docker and CI/CD pipeline</li>
+                <li>Built ensemble model combining Prophet seasonality with LSTM pattern recognition</li>
+                <li>Implemented automated feature engineering for lag features and rolling statistics</li>
+                <li>Created interactive Streamlit dashboard for forecast visualization and scenario planning</li>
+                <li>Reduced inventory holding costs by 20% through improved demand prediction</li>
               </ul>
             </div>
             <div class="project-links">
@@ -159,43 +157,7 @@
                 </svg>
                 GitHub
               </a>
-              <a href="#" class="btn btn-primary">Live Demo</a>
-            </div>
-          </div>
-
-          <!-- Gmail Email Monitor -->
-          <div class="project-card animate-on-scroll">
-            <div class="project-tags">
-              <span class="tag">Python</span>
-              <span class="tag">Gmail API</span>
-              <span class="tag">LLM</span>
-              <span class="tag">Telegram API</span>
-              <span class="tag">Docker</span>
-              <span class="tag">Selenium</span>
-            </div>
-            <h2>Gmail Email Monitor</h2>
-            <p>
-              Built an intelligent email monitoring system using Gmail API, NLP, and multi-channel 
-              notifications. Integrated Llama 3.2 LLM for AI-powered email classification with 92% 
-              accuracy in identifying high-priority messages.
-            </p>
-            <div class="project-features">
-              <h3>Key Achievements</h3>
-              <ul class="project-details">
-                <li>Developed modular Python application with continuous inbox monitoring and smart filtering</li>
-                <li>Integrated Telegram and WhatsApp notification channels with session management</li>
-                <li>Implemented AI-powered email classification for context-aware importance scoring</li>
-                <li>Reduced manual email monitoring time by 85%</li>
-              </ul>
-            </div>
-            <div class="project-links">
-              <a href="https://github.com/SudarshanDudhe-NEU/gmail-app" class="btn btn-outline" target="_blank">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                </svg>
-                GitHub
-              </a>
-              <a href="#" class="btn btn-primary">Demo</a>
+              <a href="#" class="btn btn-primary">Dashboard</a>
             </div>
           </div>
 
@@ -206,7 +168,6 @@
               <span class="tag">PyTorch</span>
               <span class="tag">Keras</span>
               <span class="tag">Scikit-Learn</span>
-              <span class="tag">CNN</span>
               <span class="tag">RNN</span>
             </div>
             <h2>Neural Modeling & ML Projects</h2>
@@ -235,14 +196,14 @@
             </div>
           </div>
 
-          <!-- Data Analysis -->
+          <!-- Marital Stability Analysis -->
           <div class="project-card animate-on-scroll">
             <div class="project-tags">
               <span class="tag">Python</span>
-              <span class="tag">Data Analysis</span>
               <span class="tag">Statistical Modeling</span>
-              <span class="tag">Scikit-Learn</span>
+              <span class="tag">ANOVA</span>
               <span class="tag">Visualization</span>
+              <span class="tag">Tableau</span>
             </div>
             <h2>Marital Stability Analysis</h2>
             <p>
@@ -255,8 +216,8 @@
               <ul class="project-details">
                 <li>Analyzed 4,900 records using Python statistical modeling</li>
                 <li>Investigated seasonal patterns and demographic influences</li>
-                <li>Applied predictive models to identify trends in demographic data</li>
-                <li>Visualized patterns with Seaborn/Tableau</li>
+                <li>Applied Propensity Score Matching to control for confounders</li>
+                <li>Visualized patterns with Seaborn and Tableau dashboards</li>
               </ul>
             </div>
             <div class="project-links">
@@ -270,6 +231,76 @@
             </div>
           </div>
 
+          <!-- NLP Sentiment Analysis -->
+          <div class="project-card animate-on-scroll">
+            <div class="project-tags">
+              <span class="tag">NLP</span>
+              <span class="tag">BERT</span>
+              <span class="tag">Transformers</span>
+              <span class="tag">Hugging Face</span>
+              <span class="tag">FastAPI</span>
+            </div>
+            <h2>Product Review Sentiment Analyzer</h2>
+            <p>
+              Built an NLP pipeline for sentiment analysis of product reviews using fine-tuned BERT 
+              models. Achieved 91% accuracy on multi-class sentiment classification with aspect-based 
+              sentiment extraction for detailed product insights.
+            </p>
+            <div class="project-features">
+              <h3>Key Achievements</h3>
+              <ul class="project-details">
+                <li>Fine-tuned DistilBERT on 100K+ product reviews for domain adaptation</li>
+                <li>Implemented aspect-based sentiment analysis to identify product feature opinions</li>
+                <li>Built real-time inference API with batching for high throughput</li>
+                <li>Created executive dashboard showing sentiment trends and key drivers</li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/SudarshanDudhe-NEU" class="btn btn-outline" target="_blank">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+                GitHub
+              </a>
+              <a href="#" class="btn btn-primary">Try Demo</a>
+            </div>
+          </div>
+
+          <!-- JobFit AI -->
+          <div class="project-card animate-on-scroll">
+            <div class="project-tags">
+              <span class="tag">OpenAI GPT</span>
+              <span class="tag">NLP</span>
+              <span class="tag">RAG</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">Pinecone</span>
+            </div>
+            <h2>JobFit AI – Resume Optimization</h2>
+            <p>
+              Built an end-to-end ML-powered resume optimization platform analyzing 10,000+ job 
+              descriptions. Improved applicant-match rates by 40% using NLP and semantic retrieval 
+              with vector embeddings.
+            </p>
+            <div class="project-features">
+              <h3>Key Achievements</h3>
+              <ul class="project-details">
+                <li>Developed NLP pipeline for job description parsing and skill extraction</li>
+                <li>Built semantic similarity matching using sentence transformers</li>
+                <li>Implemented recommendation engine for resume keyword optimization</li>
+                <li>Orchestrated data pipelines from AWS S3 using Apache Airflow</li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/SudarshanDudhe-NEU" class="btn btn-outline" target="_blank">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+                GitHub
+              </a>
+              <a href="#" class="btn btn-primary">Live Demo</a>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -277,8 +308,8 @@
     <section class="section cta-section">
       <div class="container">
         <div class="cta-card animate-on-scroll">
-          <h2>Have a Project in Mind?</h2>
-          <p>I'm always excited to collaborate on innovative AI and full-stack projects.</p>
+          <h2>Interested in My Work?</h2>
+          <p>I'm excited to collaborate on data science and machine learning projects.</p>
           <div class="cta-buttons">
             <a href="contact.html" class="btn btn-primary">Let's Discuss</a>
             <a href="https://github.com/SudarshanDudhe-NEU" class="btn btn-outline" target="_blank">
@@ -300,7 +331,7 @@
           <a href="index.html" class="nav-logo">
             <span class="logo-bracket">&lt;</span>SD<span class="logo-bracket">/&gt;</span>
           </a>
-          <p>AI Engineer based in Boston, MA<br>Building intelligent systems that matter.</p>
+          <p>Data Scientist based in Boston, MA<br>Turning data into actionable insights.</p>
         </div>
         
         <div class="footer-links">
